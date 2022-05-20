@@ -44,7 +44,7 @@ Pour écrire des tests unitaires avec Jasmine, on va commencer par déclarer un 
 
 ```
 beforeEach(waitForAsync(() => {
-TestBed.configureTestingModule({
+  TestBed.configureTestingModule({
     // Dépendances directes de notre module
     imports: [HttpClientTestingModule],
 
@@ -53,7 +53,7 @@ TestBed.configureTestingModule({
 
     // Services injectables utilisés
     providers: [...],
-})
+  })
     .compileComponents();
 }));
 ```
