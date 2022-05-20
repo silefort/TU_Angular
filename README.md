@@ -1,22 +1,38 @@
-# initialisation d'un projet  
-creation d'un projet angular : 
+# Initialisation d'un projet Angular
+
+Création d'un projet angular : 
+
     ```
     ng new <project-name>
     ```
 
-# les outils nécessaires pour éxecuter des Tests unitaires 
-* @angular/cli
-* Karma : outil permettant d’exécuter les TUs et calculer le code-coverage sur un navigateur ou en ligne de commande.
+# Les outils nécessaires pour exécuter des Tests unitaires 
+
+3 outils principaux sont nécessaires pour executer des tests Angular
+
+* @angular/cli : `ng test` est la commande haut niveau qui permet d'appeler Karma pour exécuter les tests unitaires
+* Karma : moteur de test, outil permettant d’executer les TUs et calculer le code-coverage sur un navigateur ou en ligne de commande.
 * Jasmine : framework de tests unitaires.
 
-# Les fichiers de configuration suivants sont automatiquement créés lors de l’initialisation du projet :
+# Fichiers de conf générés à l'init du projet :
 
+Les fichiers suivants sont générés automatiquement à l'initialisation d'un projet Angular
 
-# installer le plugin firefox pour karma :
-installation des prerequis 
+* <à remplir>
+* <à remplir>
+* <à remplir>
+
+# Installation des pré-requis et dépendances 
+
+Installer le plugin firefox pour karma :
+
     ```
     npm install karma-firefox-launcher
     ```
+    
+# Executer les tests unitaires en Angular 
+
+`ng test`
 
 # Etapes de structuration d’un test Jasmine :
 
@@ -41,5 +57,3 @@ Pour écrire des tests unitaires avec Jasmine, on va commencer par déclarer un 
         .compileComponents();
     }));
     ```
-
-# 2- 
