@@ -77,3 +77,5 @@ il faut à minima 3 fonctions fournies par Jasmine :
   ..
   }
 ```
+  
+  un fichier test complet ressemble à : https://github.com/silefort/TU_Angular/blob/main/src/app/calculate-service.service.spec.ts
