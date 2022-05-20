@@ -39,7 +39,8 @@ npm install karma-firefox-launcher
 Par défaut, les fichiers de tests unitaires sont identifiés par l’extension .spec.ts.
 par exemple pour le service <calculateService> les TU sont définis dans le fichier <calculate-service.service.spec.ts> 
 
-# 1- declaration du test module
+## 1- declaration du test module :
+  
 Pour écrire des tests unitaires avec Jasmine, on va commencer par déclarer un TestingModule, la structure de déclaration pour un composant est la suivante
 
 ```
@@ -57,3 +58,7 @@ beforeEach(waitForAsync(() => {
     .compileComponents();
 }));
 ```
+  
+## 2 - Ecrire un test Jasmine :
+
+
