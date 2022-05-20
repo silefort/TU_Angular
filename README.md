@@ -61,4 +61,19 @@ beforeEach(waitForAsync(() => {
   
 ## 2 - Ecrire un test Jasmine :
 
-
+il faut à minima 3 fonctions fournies par Jasmine :
+* describe : permet de définir un groupe de « tests ».
+* it : permet de définir une « spec » (ou un test).
+* expect : pour implémenter les assertions.
+```
+  ...
+  describe('CalculateServiceService', () => {
+  ...
+  
+  it('doit retourner le prix TTC (12) en fonction de la TVA (20) et du prix hors taxes (10)', () => {
+    expect(service.calculerPrixBiereAvecTVA(10, 20)).toEqual(12);
+  });
+  
+  ..
+  }
+```
