@@ -2,9 +2,9 @@
 
 Création d'un projet angular : 
 
-    ```
-    ng new <project-name>
-    ```
+```
+ng new <project-name>
+```
 
 # Les outils nécessaires pour exécuter des Tests unitaires 
 
@@ -26,9 +26,9 @@ Les fichiers suivants sont générés automatiquement à l'initialisation d'un p
 
 Installer le plugin firefox pour karma :
 
-    ```
-    npm install karma-firefox-launcher
-    ```
+```
+npm install karma-firefox-launcher
+```
     
 # Executer les tests unitaires en Angular 
 
@@ -42,18 +42,18 @@ par exemple pour le service <calculateService> les TU sont définis dans le fich
 # 1- declaration du test module
 Pour écrire des tests unitaires avec Jasmine, on va commencer par déclarer un TestingModule, la structure de déclaration pour un composant est la suivante
 
-    ```
-    beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-        // Dépendances directes de notre module
-        imports: [HttpClientTestingModule],
+```
+beforeEach(waitForAsync(() => {
+TestBed.configureTestingModule({
+    // Dépendances directes de notre module
+    imports: [HttpClientTestingModule],
 
-        // Composants utilisés dans le template
-        declarations: [...],
+    // Composants utilisés dans le template
+    declarations: [...],
 
-        // Services injectables utilisés
-        providers: [...],
-    })
-        .compileComponents();
-    }));
-    ```
+    // Services injectables utilisés
+    providers: [...],
+})
+    .compileComponents();
+}));
+```
